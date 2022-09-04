@@ -1,5 +1,6 @@
 import React from "react";
 import { BsSearch } from "react-icons/bs";
+import {motion} from 'framer-motion'
 
 import { Logo, profile, iconsList } from "../data";
 
@@ -28,13 +29,16 @@ const Nav = () => {
 
           <ul className="flex items-center space-x-5 text-xl">
             {iconsList.map((item, index) => (
-              <li key={index}>
+              <motion.li key={index}
+              whileHover={{scale:1.3}}
+              >
                 <a href="" className={`text-[#262626] ${item.hover}`}>
                   {item.icons}
                 </a>
-              </li>
+              </motion.li>
             ))}
-            <img
+            <motion.img
+              whileHover={{scale:1.3}}
               className="w-[25px] h-[25px] rounded-full object-cover cursor-pointer"
               src={profile}
               alt="Profile"

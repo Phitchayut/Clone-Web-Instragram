@@ -94,6 +94,8 @@ export const navToggle = [
 ]
 
 import {FaClone} from 'react-icons/fa'
+import {HiVideoCamera} from 'react-icons/hi'
+
 export const imgPost = [
   {
     id:1,
@@ -105,7 +107,7 @@ export const imgPost = [
     id:2,
     img:"https://images.unsplash.com/photo-1662063750283-c9db3ef3bd3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
     alt:"postImg",
-    icons:<FaClone/>
+    icons:<HiVideoCamera/>
   },
   {
     id:3,
