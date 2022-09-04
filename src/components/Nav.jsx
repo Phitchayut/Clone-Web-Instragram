@@ -2,7 +2,6 @@ import React from "react";
 import { BsSearch } from "react-icons/bs";
 
 import { Logo, profile, iconsList } from "../data";
-// h-[53px] bg-red-500 w-full lg:max-w-[935px]
 
 const Nav = () => {
   return (
