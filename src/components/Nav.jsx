@@ -9,7 +9,7 @@ const Nav = () => {
       <div className="sm:w-full md:w-[60rem] lg:w-[60rem] mx-auto">
         <nav className="flex justify-between flex-col sm:flex-col md:flex-row lg:flex-row h-40 md:h-16 lg:h-16 py-4 items-center">
           <div className="logo">
-            <img src={Logo} className="w-[103px] h-[29px]" alt="" />
+            <img src={Logo} className="w-[123px] h-[50px]" alt="" />
           </div>
           <div className="search">
             <label class="relative block">
