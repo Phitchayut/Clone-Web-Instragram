@@ -5,7 +5,7 @@ const profilePic = 'https://images.unsplash.com/photo-1517849845537-4d257902454a
 
 const UserInfo = () => {
   return (
-    <div className='flex:col lg:flex md:flex items-center w-full lg:w-[60rem] md:w-[60rem] mx-auto lg:h-40 md:h-40 mt-5'>
+    <div className='mt-5 flex lg:flex-row md:flex-row flex-col lg:h-44 md:h-44 h-auto items-center'>
         <div className="profile-pic flex-1 flex justify-center">
             <img className='w-[150px] h-[150px] rounded-full object-cover' src={profilePic} alt="my profile pic" />
         </div>
@@ -28,6 +28,8 @@ const UserInfo = () => {
                 <p>Phitchayut Chanpherng</p>
             </div>
         </div>
+
+      
     </div>
   )
 }
